@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Binary Conversion</title>
-    <link rel="stylesheet" href="index.css"> 
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
   <div class="container">
     <h1>Decimal Converter</h1>
     <p>Enter a decimal number to convert it into Binary, Octal, and Hexadecimal.</p>
 
-    <input type="number" id="decimalInput" placeholder="Enter decimal number">
+    <input type="number" id="decimalInput" placeholder="Enter decimal number" min="0">
     <button onclick="convertNumber()">Convert</button>
 
     <div class="result">
@@ -21,21 +21,6 @@
     </div>
   </div>
 
-  <script>
-    function convertNumber() {
-      let decimal = document.getElementById("decimalInput").value;
-      
-      if (decimal === "") {
-        alert("Please enter a number first!");
-        return;
-      }
-
-      let dec = parseInt(decimal);
-
-      document.getElementById("binary").textContent = dec.toString(2);
-      document.getElementById("octal").textContent = dec.toString(8);
-      document.getElementById("hexa").textContent = dec.toString(16).toUpperCase();
-    }
-  </script>
+  <script src="index.js"></script>
 </body>
 </html>

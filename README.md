@@ -1,3 +1,4 @@
 FrontEnd Tugas Kelompok 7  
 Anggota :  
-Grevano Geraldo (535240030)  
+- Grevano Geraldo (535240030)  
+- Rivaldo Marcellino Patty (535240202)
